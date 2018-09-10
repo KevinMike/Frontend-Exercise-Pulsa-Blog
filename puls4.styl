@@ -1,0 +1,50 @@
+gris_oscuro = #444
+gris_claro = lighten(gris_oscuro,40%)
+footer
+	background gris_claro
+	color white
+	padding 1em
+header
+	background gris_oscuro
+	color white
+	padding 1em
+	.logo
+		figure
+			border 1px dashed invert(gris_oscuro)
+			width 52px
+			height 52px
+	.titular
+		h1
+			font-size 18px
+			font-weight normal
+			padding 0
+			margin 0
+	.usuario
+		.avatar
+			border 1px dashed invert(gris_oscuro)
+			border-radius 50%
+			height 50px
+			width 50px
+section
+	padding 1.2em
+	article
+		border 1px solid gris_claro
+		border-radius 0 0 0.8em 0.8em
+		overflow hidden
+		margin-bottom 1.2em
+		.descripcion
+			figure 
+				background gris_claro 
+				height 160px
+				width 120px
+				margin 0
+			h2
+				font-size 18px
+				color gris_oscuro
+		.fecha
+			position relative
+			right 20px
+		
+		.acciones
+			border-top 3px solid gris_claro
+			min-height 3em
